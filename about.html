@@ -5,6 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About - Vintage Velocity</title>
   <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .about-section {
+      background-color: #f9f9f9;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about-section h2 {
+      text-align: center;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    .about-section p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .icon-row {
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem 0;
+    }
+
+    .icon-block {
+      text-align: center;
+      flex: 1;
+      padding: 1rem;
+    }
+
+    .icon-block img {
+      width: 60px;
+      margin-bottom: 0.5rem;
+    }
+
+    .quote-box {
+      font-style: italic;
+      border-left: 4px solid #888;
+      padding-left: 1rem;
+      margin-top: 2rem;
+      color: #555;
+      background-color: #fff;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,12 +64,36 @@
     <a href="contact.html">Contact</a>
   </nav>
   <main>
-    <h2>Our Passion for Vintage Cars</h2>
-    <p>Vintage Velocity is a tribute to the timeless beauty and engineering of classic automobiles from the past century. Each car showcased here has a unique story, originating from different parts of the world. We aim to preserve their legacy and share their stories with enthusiasts everywhere.</p>
+    <section class="about-section">
+      <h2>Driven by Passion, Powered by History</h2>
+      <p>
+        <strong>Vintage Velocity</strong> was created to honor and showcase the beauty of classic automobiles from around the world.
+        From the rumble of American muscle to the elegance of European engineering, each vehicle tells a unique story of design,
+        innovation, and culture. Our goal is to share that passion with enthusiasts, students, and future collectors.
+      </p>
+
+      <div class="icon-row">
+        <div class="icon-block">
+          <img src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt="History Icon">
+          <p><strong>Heritage</strong><br>Learn the origins of iconic models</p>
+        </div>
+        <div class="icon-block">
+          <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Gallery Icon">
+          <p><strong>Gallery</strong><br>Visual archive of automotive art</p>
+        </div>
+        <div class="icon-block">
+          <img src="https://cdn-icons-png.flaticon.com/512/476/476863.png" alt="Gear Icon">
+          <p><strong>Engineering</strong><br>Explore design and innovation</p>
+        </div>
+      </div>
+
+      <div class="quote-box">
+        "A car is not just a mode of transport — it's a time machine, a memory trigger, and a masterpiece of its era."
+      </div>
+    </section>
   </main>
   <footer>
     <p>&copy; 2025 Vintage Velocity</p>
   </footer>
 </body>
 </html>
-
