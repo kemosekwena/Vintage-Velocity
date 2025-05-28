@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback - Vintage Velocity</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Vintage Velocity</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="contact.html">Contact</a>
+        <a href="feedback.html" class="active">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>We Value Your Feedback</h2>
+    <p>Please let us know what you think about Vintage Velocity. Your feedback helps us improve.</p>
+    
+    <form action="#" method="post" class="feedback-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="rating">How would you rate our site?</label>
+      <select id="rating" name="rating">
+        <option value="">--Choose--</option>
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="fair">Fair</option>
+        <option value="poor">Poor</option>
+      </select>
+
+      <label for="comments">Your Comments:</label>
+      <textarea id="comments" name="comments" rows="5"></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vintage Velocity. All rights reserved.</p>
+  </footer>
+</body>
+</html>
